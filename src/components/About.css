@@ -1,0 +1,33 @@
+.about-us-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .about-us h2,
+  .management-team h2 {
+    color: #070707;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .team-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .team-details h3 {
+    color: #070107;
+    margin: 0;
+  }
+  
+  .team-details p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+  

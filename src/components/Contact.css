@@ -1,0 +1,52 @@
+.offices-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .head-office, .other-offices {
+    margin-bottom: 40px;
+  }
+  
+  .head-office h2, .other-offices h2 {
+    color: #ffffff;
+    background-color: #f39357;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .head-office-details, .office-locations {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white;
+    color: #070202;
+  }
+  
+  .office-location h3 {
+    color: #d32f2f;
+  }
+  
+  .contact-details a {
+    color: #2979ff;
+    text-decoration: none;
+  }
+  
+  .other-offices h2 {
+    color: #f7f1f1;
+  }
+  
+  .office-locations {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .office-location {
+    max-width: 200px;
+  }
+  
+  .contact-details em {
+    font-style: italic;
+    color: #aaa;
+  }
+  

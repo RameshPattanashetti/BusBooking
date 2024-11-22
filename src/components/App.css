@@ -1,0 +1,93 @@
+.App {
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(81, 192, 12);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .logo {
+    color: cyan;
+    font-size: 2rem;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    color: white;
+  }
+  
+  .nav-links li {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sign-in {
+    background-color: cyan;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  .bus-image {
+    width: 300px;
+    height: auto;
+  }
+  
+  .search-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .search-form input, .search-form button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-form button {
+    background-color: cyan;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .routes-section {
+    margin: 2rem 0;
+  }
+  
+  .routes-section table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  .routes-section th, .routes-section td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+  
+  .why-choose-section {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .why-choose-section h2 {
+    margin-bottom: 1rem;
+  }
+  
